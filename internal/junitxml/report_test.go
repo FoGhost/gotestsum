@@ -8,10 +8,10 @@ import (
 	"runtime"
 	"testing"
 
+	"github.com/FoGhost/gotestsum/testjson"
 	"gotest.tools/assert"
 	"gotest.tools/env"
 	"gotest.tools/golden"
-	"gotest.tools/gotestsum/testjson"
 )
 
 func TestWrite(t *testing.T) {

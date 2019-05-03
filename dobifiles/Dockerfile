@@ -5,7 +5,7 @@ RUN     apk add -U curl git bash
 ENV     CGO_ENABLED=0 \
         PS1="# " \
         GO111MODULE=on
-WORKDIR /go/src/gotest.tools/gotestsum
+WORKDIR /go/src/github.com/FoGhost/gotestsum
 
 FROM    golang as tools
 RUN     go get github.com/dnephin/filewatcher@v0.3.2

@@ -8,11 +8,11 @@ import (
 	"os/exec"
 	"strings"
 
+	"github.com/FoGhost/gotestsum/testjson"
 	"github.com/fatih/color"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/pflag"
-	"gotest.tools/gotestsum/testjson"
 )
 
 var version = "master"

@@ -4,10 +4,10 @@ import (
 	"io"
 	"os"
 
+	"github.com/FoGhost/gotestsum/internal/junitxml"
+	"github.com/FoGhost/gotestsum/testjson"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
-	"gotest.tools/gotestsum/internal/junitxml"
-	"gotest.tools/gotestsum/testjson"
 )
 
 type eventHandler struct {

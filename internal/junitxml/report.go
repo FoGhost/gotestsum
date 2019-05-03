@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/FoGhost/gotestsum/testjson"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
-	"gotest.tools/gotestsum/testjson"
 )
 
 // JUnitTestSuites is a collection of JUnit test suites.
@@ -153,7 +153,7 @@ func packageTestCases(pkg *testjson.Package) []JUnitTestCase {
 
 func newJUnitTestCase(tc testjson.TestCase) JUnitTestCase {
 	return JUnitTestCase{
-		Classname: tc.Package,
+		Classname: tc.Test,
 		Name:      tc.Test,
 		Time:      formatDurationAsSeconds(tc.Elapsed),
 	}

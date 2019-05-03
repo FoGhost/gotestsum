@@ -1,1 +1,1 @@
-package testjson // import "gotest.tools/gotestsum/testjson"
+package testjson // import "github.com/FoGhost/gotestsum/testjson"

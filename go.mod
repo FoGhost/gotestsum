@@ -1,4 +1,4 @@
-module gotest.tools/gotestsum
+module github.com/FoGhost/gotestsum
 
 require (
 	github.com/fatih/color v1.6.0

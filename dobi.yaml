@@ -3,7 +3,7 @@ meta:
 
 mount=source:
   bind: .
-  path: /go/src/gotest.tools/gotestsum
+  path: /go/src/github.com/FoGhost/gotestsum
 
 mount=buildcache:
   bind: ~/.cache/go-build

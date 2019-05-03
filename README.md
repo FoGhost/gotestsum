@@ -5,7 +5,7 @@
 ## Install
 
 Download a binary from [releases](https://github.com/gotestyourself/gotestsum/releases), or get the
-source with `go get gotest.tools/gotestsum` (you may need to run `dep ensure`).
+source with `go get github.com/FoGhost/gotestsum` (you may need to run `dep ensure`).
 
 ## Demo
 
@@ -13,9 +13,9 @@ source with `go get gotest.tools/gotestsum` (you may need to run `dep ensure`).
 
 ## Docs
 
-[![GoDoc](https://godoc.org/gotest.tools/gotestsum?status.svg)](https://godoc.org/gotest.tools/gotestsum)
+[![GoDoc](https://godoc.org/github.com/FoGhost/gotestsum?status.svg)](https://godoc.org/github.com/FoGhost/gotestsum)
 [![CircleCI](https://circleci.com/gh/gotestyourself/gotestsum/tree/master.svg?style=shield)](https://circleci.com/gh/gotestyourself/gotestsum/tree/master)
-[![Go Reportcard](https://goreportcard.com/badge/gotest.tools/gotestsum)](https://goreportcard.com/report/gotest.tools/gotestsum)
+[![Go Reportcard](https://goreportcard.com/badge/github.com/FoGhost/gotestsum)](https://goreportcard.com/report/github.com/FoGhost/gotestsum)
 
 `gotestsum` works by running `go test --json ./...` and reading the JSON
 output.

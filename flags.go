@@ -4,8 +4,8 @@ import (
 	"encoding/csv"
 	"strings"
 
+	"github.com/FoGhost/gotestsum/testjson"
 	"github.com/pkg/errors"
-	"gotest.tools/gotestsum/testjson"
 )
 
 type noSummaryValue struct {

@@ -92,7 +92,7 @@ jobs:
     executor:
       name: go/golang
       tag: 1.10-alpine
-    working_directory: /go/src/gotest.tools/gotestsum
+    working_directory: /go/src/github.com/FoGhost/gotestsum
     steps:
       - go/install-git
       - go/install-ssh
